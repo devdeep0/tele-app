@@ -8,7 +8,7 @@ function Header() {
         </div>
         <div>
             <div className='flex gap-2 justify-center items-center'>
-                <div className='h-3/4 w-[70px] bg-blue-400 rounded-xl flex justify-center'>$0.00</div>
+                <div className='h-3/4 w-[70px] bg-blue-400 rounded-xl  flex justify-center'>$0.00</div>
                 <TonConnectButton />
                 
             </div>
