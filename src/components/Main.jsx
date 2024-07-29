@@ -1,10 +1,15 @@
+"use client"
 import React from 'react'
-
+import { useTonAddress } from '@tonconnect/ui-react';
 function Main() {
+ 
+    const userFriendlyAddress = useTonAddress();
+    const rawAddress = useTonAddress(true);
+ 
   return (
     <main className='p-4' >
         <div className='flex gap-4 flex-col'>
-        <div className='text-blue-400 text-3xl font-bold'>Hey name, <br /> Ready to play?</div>
+        <div className='text-blue-400 text-3xl font-bold'>Hey {userFriendlyAddress}, <br /> Ready to play?</div>
         <div className='text-gray-500'>Categories</div>
         <div className='flex gap-5 max-w-full overflow-x-auto'>
             <div className='bg-stone-900 p-3 rounded-3xl'>shooting</div>
