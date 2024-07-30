@@ -2,7 +2,7 @@ import React from 'react'
 import { TonConnectButton } from '@tonconnect/ui-react'
 function Header() {
   return (
-    <div className='h-20 fixed top-0 p-4 flex justify-between m-2 w-full items-center'>
+    <div className='h-20  fixed top-0 p-4 flex justify-between m-2 w-full items-center'>
         <div>
         <div>logo</div>
         </div>
