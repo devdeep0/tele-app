@@ -5,7 +5,7 @@ async function page() {
         address: '0QBDx43U9pZE7_v4Ra8WHNfYdmdvWR36ez7SQJpvtXhtSY5_',
       });
   return (
-    <div className='h-screen flex items-center justify-center w-full'>{balance}</div>
+    <div className='h-screen flex items-center justify-center w-full'>my balance:{balance}</div>
   )
 }
 
